@@ -1,0 +1,16 @@
+﻿
+
+częśc 1:
+
+Stwórz klasę KalkulatorDodajacy, który umie tylko dodawać. Posiada on metodę Dodaj z dowma argumentami typu int 
+Stwórz klasę KalkulatorOdejmujacy, który umie tylko odejmowac. Posiada on metodę Odejmij z dowma argumentami typu int 
+
+To samo dla mnozenia i dzielenia 
+
+częśc 2: 
+Stwórz klasę KalkulatorUniwersalny, który posiada metode WykonajOperacje z dwoma arguemtami typu int 
+ten kalkulator posiada pole , które określa rodzaj operacji 
+
+Dodaj odpowiednie pola, metody i konstruktory
+
+w medzie main przetestuj kalkulatorUniwersalny 
