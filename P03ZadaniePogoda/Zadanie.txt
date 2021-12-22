@@ -1,0 +1,7 @@
+﻿
+
+Stwórz narzędzie, które pozwala na pobieranie aktualnej pogody dla danego miasta z internetu
+i opcjonalne ustawienie jednostki w jakiej ta tempertura ma być zwracana 
+
+
+Stwórz odpowiednie metody, pola i konstruktory 

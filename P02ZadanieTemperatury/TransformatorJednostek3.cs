@@ -14,8 +14,22 @@ namespace P02ZadanieTemperatury
     }
     class TransformatorJednostek3
     {
-        public Jednostka jednWejsciowa;
-        public Jednostka jednDocelowa;
+        private Jednostka jednWejsciowa;
+        private Jednostka jednDocelowa;
+
+
+
+        public TransformatorJednostek3()
+        {
+            jednWejsciowa = Jednostka.Celsjusz;
+            jednDocelowa = Jednostka.Kelvin;
+        }
+
+        public TransformatorJednostek3(Jednostka jednWejsciowa, Jednostka jednDocelowa)
+        {
+            this.jednWejsciowa = jednWejsciowa;
+            this.jednDocelowa = jednDocelowa;
+        }
 
         /// <summary>
         /// To jest metoda, która zamienia temperaturę z jdnej jednostki na drugą
