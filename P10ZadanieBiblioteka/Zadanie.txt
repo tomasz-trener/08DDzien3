@@ -1,0 +1,39 @@
+﻿
+
+Stwórz klasy domenowe dla biblioteki
+
+
+1) Karta
+ - string Numer;
+ - DateTime DataZakupu
+ - int Wydanie
+ - List<Sygnatura> Sygnatura
+ - Cena Cena
+ - Autor[] Autor
+ - string Tytul
+ - Karta Nastepna
+ - Karta Poprzednia
+
+2) Sygnatura
+ - int Numer
+ - string Uwaga
+ - bool Aktywna
+ - List<Wypozyczenie> Wypozyczenia
+3) Czytelnik 
+  - string  NrKarty
+  - string Imie
+  - string Nazwisko
+4) Wypozyczenie
+  - DateTime DataWypozyczenia  
+  - DateTime DataPrzwidywanegoZwrotu
+  - DateTime DataRzeczywistegoZwrotu
+  - string Uwagi
+  - Wypozyczenie Przedluzenie
+  - Czytelnik Czytelnik
+5) Cena
+  - double Cena
+  - string Uwagi
+6) Autor
+  - string Imie
+  - string Nazwisko
+  - string DrugieImie
