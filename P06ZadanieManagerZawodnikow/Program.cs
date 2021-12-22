@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace P06ZadanieManagerZawodnikow
+namespace P07ZadanieManagerZawodnikow
 {
     class Program
     {
@@ -16,6 +16,8 @@ namespace P06ZadanieManagerZawodnikow
                 Console.WriteLine(z.PrzedstawSie());
 
             Console.ReadKey();
+            
+           
         } 
     } 
 }
