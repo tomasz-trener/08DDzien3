@@ -10,6 +10,12 @@ namespace P03ZadaniePogoda
     {
         static void Main(string[] args)
         {
+            ManagerPogody mp = new ManagerPogody(Jednostka.Celsjusz);
+
+            double wynik=  mp.PodajTemperature("warszawa");
+            Console.WriteLine(wynik);
+
+            Console.ReadKey();
         }
     }
 }
