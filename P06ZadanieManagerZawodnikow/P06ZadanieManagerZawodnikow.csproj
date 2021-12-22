@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E776C443-67D8-40C0-B89B-B06B61FB44DE}</ProjectGuid>
+    <ProjectGuid>{39DB3545-BBC5-4369-993A-80DB736291A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P05ZadanieZawodnicy</RootNamespace>
-    <AssemblyName>P05ZadanieZawodnicy</AssemblyName>
+    <RootNamespace>P06ZadanieManagerZawodnikow</RootNamespace>
+    <AssemblyName>P06ZadanieManagerZawodnikow</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Zawodnik.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
