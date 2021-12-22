@@ -16,6 +16,6 @@ namespace P06ZadanieManagerZawodnikow
                 Console.WriteLine(z.PrzedstawSie());
 
             Console.ReadKey();
-        }
-    }
+        } 
+    } 
 }
