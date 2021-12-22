@@ -10,6 +10,12 @@ namespace P06ZadanieManagerZawodnikow
     {
         static void Main(string[] args)
         {
+            ManagerZawodnikow mz = new ManagerZawodnikow();
+
+            foreach (var z in mz.WygenerujZawodnikow())
+                Console.WriteLine(z.PrzedstawSie());
+
+            Console.ReadKey();
         }
     }
 }
